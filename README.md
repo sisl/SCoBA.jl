@@ -42,7 +42,7 @@ pkg> add https://github.com/sisl/SCoBA.jl
 
 There are 4 scripts in the `scripts/` folder, for the two kinds of evaluations on each of the two domains in the paper. The `scripts/benchmark_*` scripts are for the unsuccessful task penalty (for all baselines) and the `scripts/scaling_*` scripts are for the computation time results for the subset of baselines we show in the paper. **Each script has an example comment at the end for how it should be called.** The scripts should approximately reproduce the corresponding results in the paper, with possible variations in computation time due to versions and hardware. Please open an issue if you have any issues re-running anything.
 
-**N.B** Running `benchmark_conveyor_belt` with QLearning (for the saved policy) requires the precomputed policy files. We did not upload them to Github; please email Shushman if you need them.
+**N.B** Running `benchmark_conveyor_belt` with QLearning (for the saved policy) requires the precomputed policy files. We did not upload them to Github; please open an issue if you need them.
 
 ## Code Overview
 The two sub-folders in `src/`, i.e., `solver/` and `domains/` contain the domain-agnostic SCoBA algorithm and the domain-dependent implementations respectively. If you want to implement SCoBA on your own domain, you can just import the solver through `using SCoBA.SCoBASolver` and refer to the `domains/` sub-folders for examples of how to use it.
