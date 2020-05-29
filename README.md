@@ -3,7 +3,7 @@ Accompanying code repository for the paper:
 
 > S. Choudhury, J. K. Gupta, M. J. Kochenderfer, D. Sadigh, and J. Bohg. "Dynamic Multi-Robot Task Allocation under Uncertainty and Temporal Constraints" *Robotics: Science and Systems 2020*
 
-In this paper, we present a hierarchical multi-robot allocation algorithm that plans under task completion uncertainty and time window constraints. We call our algorithm SCoBA (Stochastic Conflict-Based Allocation). The lower layer generates single-robot allocation policies with dynamic programming and tree search, while the upper layer uses optimal conflict resolution logic to obtain a valid multi-agent allocation. Please see the extended version on Arxiv (add Link) for the details.
+In this paper, we present a hierarchical multi-robot allocation algorithm that plans under task completion uncertainty and time window constraints. We call our algorithm SCoBA (Stochastic Conflict-Based Allocation). The lower layer generates single-robot allocation policies with dynamic programming and tree search, while the upper layer uses optimal conflict resolution logic to obtain a valid multi-agent allocation. Please see the [extended version](https://arxiv.org/abs/2005.13109) on Arxiv for the details.
 
 ## Illustrations
 
